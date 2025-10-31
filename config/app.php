@@ -123,4 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'omdb_api_key' => env('OMDB_API_KEY'),
+    'omdb_api_url' => env('OMDB_API_URL', 'http://www.omdbapi.com/'),
+
 ];
